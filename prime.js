@@ -1,19 +1,16 @@
-function prime(num){
-let count=0;
-for(i=1;i<=num;i++){
+
+function prime(number){
+let counter=0;
+for(i=1;i<=number;i++){
 if(num%i==0){
-count++;
+counter++;}
 }
-}
-if(count==2){
-return true;
-}
-else {
-return false;
+if(counter==2){
+return true;}
+else {return false}
 }
 
-
-let ans= prime(39)
+let ans= prime(13)
 if(ans==true){
 console.log("prime");
 }
