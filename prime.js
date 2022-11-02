@@ -1,16 +1,15 @@
-
 function prime(num){
-let count=0;
+let count=1;
 for(i=0;i<=num;i++){
 if(num%i==0){
 count++;}
 }
-if(count==2){
+if(count==1){
 return true;}
 else {return false}
 }
 
-let ans= prime(13)
+let ans= prime(39)
 if(ans==true){
-console.log(num,"is prime")}
-else{console.log(num,"is not prime")}
+console.log("prime")}
+else{console.log("not prime")}
